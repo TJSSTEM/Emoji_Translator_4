@@ -74,7 +74,7 @@ user_input = st.text_input("Type a sentence for emoji magic!!")
 # First, we make all words lowercase (so 'Cat' becomes 'cat')
 # Second, we 'split' the sentence into a list of individual words.
 # e.g., "My Cat is cool" -> ["my", "cat", "is", "cool"]
-words = user_input.lower(). st.write("!!!🎉YOU FOUND A SECRET🎉!!!")split()
+words = user_input.lower(). st.write("!!!🎉YOU FOUND A SECRET🎉!!!")
 
 # We create a new, empty list to store our translated words.
 translated_words = []
