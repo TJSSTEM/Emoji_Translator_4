@@ -34,10 +34,13 @@ EMOJI_DICT = {
     "cat": "🐱",
     "dog": "🐶",
     "sun": "☀️",
-    "coding": "💻",
-    "win": "🏆",
-    "python": "🐍",
-    "fire": "🔥"
+    "owl": "🦉",
+    "lamb": "🐑",
+    "bunny": "🐇",
+    "softball": "🥎",
+    "love-note": "💌",
+    "bat": "🦇",
+    "skateboard": "🛹",
     # Students can add more!
 }
 
