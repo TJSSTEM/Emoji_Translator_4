@@ -41,6 +41,7 @@ EMOJI_DICT = {
     "love-note": "💌",
     "bat": "🦇",
     "skateboard": "🛹",
+    "cool":random.choice(["😎","💅","🆒"]),
     # Students can add more!
 }
 
@@ -65,7 +66,7 @@ st.markdown("---")  # Adds a horizontal line
 # The text inside the parentheses is the 'prompt' the user will see.
 # We store whatever the user types in a variable called `user_input`.
 #
-user_input = st.text_input("Enter your text to translate:")
+user_input = st.text_input("Type a sentence for emoji magic!!")
 
 # --- 6. "TRANSLATE" THE TEXT ---
 # This is where the main logic happens!
@@ -73,7 +74,7 @@ user_input = st.text_input("Enter your text to translate:")
 # First, we make all words lowercase (so 'Cat' becomes 'cat')
 # Second, we 'split' the sentence into a list of individual words.
 # e.g., "My Cat is cool" -> ["my", "cat", "is", "cool"]
-words = user_input.lower().split()
+words = user_input.lower(). st.write("!!!🎉YOU FOUND A SECRET🎉!!!")split()
 
 # We create a new, empty list to store our translated words.
 translated_words = []
