@@ -6,7 +6,7 @@ import random
 
 # --- 2. SET UP THE APP'S TITLE ---
 # This command draws the main title on our web page.
-st.title("RSU's Super Emoji Machine✨🤖")
+st.title("OHS Teacher Emojis ✂️🚌📘")
 
 # --- NEW: Instructions Section ---
 with st.expander("👉 How to use this app"):
@@ -34,15 +34,22 @@ EMOJI_DICT = {
     "cat": "🐱",
     "dog": "🐶",
     "sun": "☀️",
-    "owl": "🦉",
-    "lamb": "🐑",
-    "bunny": "🐇",
-    "softball": "🥎",
-    "love-note": "💌",
-    "bat": "🦇",
-    "skateboard": "🛹",
-    "cool":random.choice(["😎","💅","🆒"]),
-    # Students can add more!
+    "coding": "💻",
+    "win": "🏆",
+    "python": "🐍",
+    "fire": "🔥",
+    "fox when you aren't listening": "😡",
+    "creamer when you can't be quiet in the hall": "🤯",
+    "vaughan, when she wakes up": "🫨",
+    "mr. steve when you miss the bus": "😠",
+    "bledsoe when you take 5 ar test in one day": "😣",
+    "gaines during science fair week": "☠️",
+    "miss amy when she has the all boys class": "🏃‍♀️‍➡️",
+    "cool":random.choice(["😎", "🤙", "🆒"]),
+    "cooking": "👩‍🍳",
+    "puppy": "🐶",
+    "sloth": "🦥",
+
 }
 
 # ------------------------------------
@@ -66,7 +73,7 @@ st.markdown("---")  # Adds a horizontal line
 # The text inside the parentheses is the 'prompt' the user will see.
 # We store whatever the user types in a variable called `user_input`.
 #
-user_input = st.text_input("Type a sentence for emoji magic!!")
+user_input = st.text_input("Type text to unveil a NEW emoji!!")
 
 # --- 6. "TRANSLATE" THE TEXT ---
 # This is where the main logic happens!
@@ -74,11 +81,12 @@ user_input = st.text_input("Type a sentence for emoji magic!!")
 # First, we make all words lowercase (so 'Cat' becomes 'cat')
 # Second, we 'split' the sentence into a list of individual words.
 # e.g., "My Cat is cool" -> ["my", "cat", "is", "cool"]
-words = user_input.lower() split()
+words = user_input.lower().split()
 
-if "secret" in user_input.lower(): st.write("!!!🎉YOU FOUND A SECRET🎉!!!")
 # We create a new, empty list to store our translated words.
 translated_words = []
+if "secret"in user_input.lower():
+    st.write("🎉 YOU FOUND THE SECRET! 🎉")
 
 # --- 7. LOOP THROUGH ALL THE WORDS ---
 # This 'for' loop looks at each 'word' in our 'words' list, one by one.
