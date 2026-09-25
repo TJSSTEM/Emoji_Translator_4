@@ -83,9 +83,9 @@ EMOJI_DICT = {
     "dead": "🥀",
     "tired": "💤‍🫩",
     "see": "👀",
-    "pout" : "🥺"
-    "think" : "🤔"
-    "flying" : "✈️"
+    "pout" : "🥺",
+    "think" : "🤔",
+    "flying" : "✈️",
     
 }
 
