@@ -17,11 +17,11 @@ import streamlit as st
 # - Writing your own welcome message
 
 
-st.title("My Emoji Translator 💬➡️😎")
+st.title("My Emoji Translator 💬➡️😁")
 
-st.write("Turn your words into emojis! 🚀")
+st.write("Turn your words into emojis! ♻️")
 
-st.info("💡 Try typing: I love my cat")
+st.info("💡 Try typing: I'm scared of flying")
 
 
 # ============================================================
@@ -83,6 +83,10 @@ EMOJI_DICT = {
     "dead": "🥀",
     "tired": "💤‍🫩",
     "see": "👀",
+    "pout" : "🥺"
+    "think" : "🤔"
+    "flying" : "✈️"
+    
 }
 
 
