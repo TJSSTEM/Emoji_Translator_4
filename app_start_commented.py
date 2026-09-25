@@ -80,7 +80,8 @@ EMOJI_DICT = {
     # 👇 ADD YOUR NEW MAGIC WORDS HERE!
     "car": "🏎️",
     "tram": "🚋",
-
+    "dead rose": "🥀",
+    "tired": "💤‍🫩",
 }
 
 
