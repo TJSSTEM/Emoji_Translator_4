@@ -46,7 +46,6 @@ with st.expander("👉 How to use this app"):
 # Each word is connected to an emoji:
 #
 # "pizza": "🍕",
-#
 # 🎯 YOUR MISSION:
 # Add at least 3 NEW words!
 #
@@ -77,7 +76,9 @@ EMOJI_DICT = {
     "cold": "😬",
     "scared": "😧",
     "silent": "😶",
-    # 👇 ADD YOUR NEW MAGIC WORDS HERE!
+    "bowling":"🎳",
+    "orange":"🧡",
+    "moon":"🌕",
     "car": "🏎️",
     "tram": "🚋",
     "dead": "🥀",
@@ -164,7 +165,7 @@ if output_sentence:
 st.balloons()
 #
 #
-st.snow()
+#st.snow()
 #
 # Which one do you like better? 🎈❄️
 
