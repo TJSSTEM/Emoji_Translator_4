@@ -19,7 +19,7 @@ import streamlit as st
 
 st.title("My Emoji Translator 💬➡️🙏")
 
-st.write("Turn your words into emojis! ♻️")
+st.write("Turn your words into emojis! ✔️")
 
 st.info("💡 Try typing: I'm scared of flying")
 
@@ -86,6 +86,7 @@ EMOJI_DICT = {
     "pout" : "🥺",
     "think" : "🤔",
     "flying" : "✈️",
+    "correct" : "✔️",
     
 }
 
@@ -159,7 +160,7 @@ if output_sentence:
 #st.balloons()
 #
 #
-#st.snow()
+st.snow()
 #
 # Which one do you like better? 🎈❄️
 
