@@ -66,7 +66,7 @@ with st.expander("👉 How to use this app"):
 EMOJI_DICT = {
     "love": "❤️",
     "happy": "😊",
-    "sad": "😢",
+    "sad": "☹️",
     "cat": "🐱",
     "dog": "🐶",
     "Sunny": "☀️",
@@ -75,10 +75,10 @@ EMOJI_DICT = {
     "python": "🐍",
     "fire": "🔥",
     "cold": "😬",
-    "scared": "😱",
+    "scared": "😧",
     "silent": "😶",
     # 👇 ADD YOUR NEW MAGIC WORDS HERE!
-    "car": "🚗",
+    "car": "🏎️",
     "tram": "🚋",
 
 }
