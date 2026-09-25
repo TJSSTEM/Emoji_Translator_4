@@ -82,6 +82,7 @@ EMOJI_DICT = {
     "tram": "🚋",
     "dead": "🥀",
     "tired": "💤‍🫩",
+    "see": "👀",
 }
 
 
