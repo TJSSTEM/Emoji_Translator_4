@@ -78,8 +78,8 @@ EMOJI_DICT = {
     "scared": "😱",
     "silent": "😶",
     # 👇 ADD YOUR NEW MAGIC WORDS HERE!
-
-
+    "car": "🚗",
+    "tram": "🚋",
 
 }
 
