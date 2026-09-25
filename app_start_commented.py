@@ -152,7 +152,7 @@ if output_sentence:
 #
 #st.balloons()
 #
- st.snow()
+st.snow()
 #
 # Which one do you like better? 🎈❄️
 
