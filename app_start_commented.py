@@ -91,6 +91,7 @@ EMOJI_DICT = {
     "panda" : "🐼",
     "feather" : "🪶",
     "bunny" : "🐇",
+    "I" : "👁",
 }
 
 
