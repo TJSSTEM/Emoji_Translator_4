@@ -87,6 +87,7 @@ EMOJI_DICT = {
     "think" : "🤔",
     "flying" : "✈️",
     "correct" : "✔️",
+    "brain" : "🧠",
     
 }
 
