@@ -17,7 +17,7 @@ import streamlit as st
 # - Writing your own welcome message
 
 
-st.title("My Emoji Translator 💬➡️😁")
+st.title("My Emoji Translator 💬➡️🙏")
 
 st.write("Turn your words into emojis! ♻️")
 
@@ -156,10 +156,10 @@ if output_sentence:
 #
 # Remove the # from ONE of them and run your app!
 #
-st.balloons()
+#st.balloons()
 #
 #
-st.snow()
+#st.snow()
 #
 # Which one do you like better? 🎈❄️
 
