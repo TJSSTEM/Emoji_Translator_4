@@ -88,7 +88,9 @@ EMOJI_DICT = {
     "flying" : "✈️",
     "correct" : "✔️",
     "brain" : "🧠",
-    
+    "panda" : "🐼",
+    "feather" : "🪶",
+    "bunny" : "🐇",
 }
 
 
